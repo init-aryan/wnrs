@@ -18,13 +18,10 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+  "scripts": { "start": "react-scripts --openssl-legacy-provider start", "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "test": "react-scripts test"
-  },
+    "test": "react-scripts test" },
   "eslintConfig": {
     "extends": [
       "react-app",
