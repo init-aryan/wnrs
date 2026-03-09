@@ -30,7 +30,7 @@ jobs:
         run: npm run build
         env:
             NODE_OPTIONS: --openssl-legacy-provider
-
+            GENERATE_SOURCEMAP: false
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
